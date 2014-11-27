@@ -180,6 +180,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KupacsController.cs" />
+    <Compile Include="Controllers\MkupacsController.cs" />
     <Compile Include="Controllers\OkupacsController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -251,6 +252,11 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Mkupacs\Create.cshtml" />
+    <Content Include="Views\Mkupacs\Delete.cshtml" />
+    <Content Include="Views\Mkupacs\Details.cshtml" />
+    <Content Include="Views\Mkupacs\Edit.cshtml" />
+    <Content Include="Views\Mkupacs\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
